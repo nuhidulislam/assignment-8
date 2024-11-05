@@ -6,7 +6,7 @@ const DynamicCard = () => {
     const categories= useLoaderData()
     console.log(categories)
     return (
-        <div className="h-[600px] w-full border-2  border-red-500">
+        <div className="h-full w-full border-2  border-red-500">
             <div>
                 <h1 className="text-center font-bold text-3xl ">Explore Cutting-Edge Gadgets</h1>
             </div>
