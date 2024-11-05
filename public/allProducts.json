@@ -1,0 +1,482 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "Gaming Laptop XYZ",
+        "product_image": "https://i.ibb.co.com/r5vDFhQ/l-1.jpg",
+        "category": "Laptops",
+        "price": 1299.99,
+        "description": "High-performance gaming laptop with advanced cooling system.",
+        "Specification": [
+            "Intel i7 processor",
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA GTX 1660 Ti"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "2",
+        "product_title": "Smartphone Pro Max",
+        "product_image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "Latest smartphone with exceptional camera quality and performance.",
+        "Specification": [
+            "6.5-inch display",
+            "128GB storage",
+            "Triple camera system",
+            "Face recognition"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "3",
+        "product_title": "Wireless Charging Pad",
+        "product_image": "https://example.com/images/charger_pad.jpg",
+        "category": "Accessories",
+        "price": 19.99,
+        "description": "Fast and convenient wireless charging pad for your devices.",
+        "Specification": [
+            "Compatible with Qi-enabled devices",
+            "LED charging indicator",
+            "Overheat protection",
+            "Slim design"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "4",
+        "product_title": "Smart Watch Series 5",
+        "product_image": "https://example.com/images/smart_watch.jpg",
+        "category": "Smart Watches",
+        "price": 249.99,
+        "description": "Stylish smart watch with health tracking and customizable features.",
+        "Specification": [
+            "Heart rate monitoring",
+            "GPS tracking",
+            "Water-resistant",
+            "Multiple watch faces"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "5",
+        "product_title": "MacBook Air 2023",
+        "product_image": "https://example.com/images/macbook_air.jpg",
+        "category": "MacBook",
+        "price": 999.99,
+        "description": "Lightweight MacBook Air with M2 chip for superior performance.",
+        "Specification": [
+            "13-inch Retina display",
+            "8GB RAM",
+            "256GB SSD",
+            "Up to 18 hours battery life"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "6",
+        "product_title": "Laptop Stand Adjustable",
+        "product_image": "https://example.com/images/laptop_stand.jpg",
+        "category": "Accessories",
+        "price": 39.99,
+        "description": "Ergonomic laptop stand for better posture and ventilation.",
+        "Specification": [
+            "Adjustable height",
+            "Foldable design",
+            "Lightweight aluminum",
+            "Compatible with all laptops"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "7",
+        "product_title": "Bluetooth Headset",
+        "product_image": "https://example.com/images/bluetooth_headset.jpg",
+        "category": "Accessories",
+        "price": 59.99,
+        "description": "Noise-cancelling Bluetooth headset with long battery life.",
+        "Specification": [
+            "Up to 15 hours playtime",
+            "Built-in microphone",
+            "Lightweight and comfortable",
+            "Bluetooth 5.0"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "8",
+        "product_title": "Smartphone XR",
+        "product_image": "https://i.ibb.co.com/Hh44296/phone-1.jpg",
+        "category": "Phones",
+        "price": 699.99,
+        "description": "Affordable smartphone with excellent performance and camera.",
+        "Specification": [
+            "6.1-inch display",
+            "64GB storage",
+            "Single camera system",
+            "A12 Bionic chip"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "9",
+        "product_title": "MacBook Pro 16\"",
+        "product_image": "https://example.com/images/macbook_pro.jpg",
+        "category": "MacBook",
+        "price": 2399.99,
+        "description": "Powerful MacBook Pro for professionals with M1 Pro chip.",
+        "Specification": [
+            "16-inch Retina display",
+            "16GB RAM",
+            "1TB SSD",
+            "Up to 21 hours battery life"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "10",
+        "product_title": "Smart Watch Series 6",
+        "product_image": "https://example.com/images/smart_watch_series6.jpg",
+        "category": "Smart Watches",
+        "price": 299.99,
+        "description": "Feature-rich smart watch with advanced health tracking.",
+        "Specification": [
+            "ECG app",
+            "Blood oxygen monitoring",
+            "Always-on display",
+            "Water-resistant"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "11",
+        "product_title": "Portable SSD 1TB",
+        "product_image": "https://example.com/images/portable_ssd.jpg",
+        "category": "Accessories",
+        "price": 139.99,
+        "description": "Fast and reliable portable SSD for on-the-go storage.",
+        "Specification": [
+            "Read speed: 1050 MB/s",
+            "Write speed: 1000 MB/s",
+            "Durable design",
+            "USB-C compatible"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "12",
+        "product_title": "Budget Laptop ABC",
+        "product_image": "https://i.ibb.co.com/ZBQnNKx/pexels-photo.webp",
+        "category": "Laptops",
+        "price": 499.99,
+        "description": "Affordable laptop for everyday use with solid performance.",
+        "Specification": [
+            "Intel i5 processor",
+            "8GB RAM",
+            "256GB SSD",
+            "15.6-inch display"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": "13",
+        "product_title": "Fitness Tracker Band",
+        "product_image": "https://example.com/images/fitness_tracker.jpg",
+        "category": "Smart Watches",
+        "price": 29.99,
+        "description": "Simple fitness tracker to monitor your daily activities.",
+        "Specification": [
+            "Step counting",
+            "Sleep tracking",
+            "Water-resistant",
+            "Compatible with smartphones"
+        ],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "product_id": "14",
+        "product_title": "Noise Cancelling Earbuds",
+        "product_image": "https://example.com/images/earbuds.jpg",
+        "category": "Accessories",
+        "price": 89.99,
+        "description": "Wireless earbuds with active noise cancellation.",
+        "Specification": [
+            "Up to 20 hours playtime",
+            "Touch controls",
+            "IPX4 water-resistant",
+            "Deep bass sound"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "15",
+        "product_title": "Android Smartphone YZ",
+        "product_image": "https://example.com/images/android_smartphone.jpg",
+        "category": "Phones",
+        "price": 499.99,
+        "description": "Versatile Android smartphone with great performance.",
+        "Specification": [
+            "6.4-inch display",
+            "128GB storage",
+            "Dual camera system",
+            "Snapdragon 865"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "16",
+        "product_title": "Gaming Mouse RGB",
+        "product_image": "https://example.com/images/gaming_mouse.jpg",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "High-precision gaming mouse with customizable RGB lighting.",
+        "Specification": [
+            "16000 DPI",
+            "Ergonomic design",
+            "Programmable buttons",
+            "Wired and wireless modes"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "17",
+        "product_title": " Laptop Convertible",
+        "product_image": "https://i.ibb.co.com/YTvvDbr/l-3.png",
+        "category": "Laptops",
+        "price": 799.99,
+        "description": "Versatile 2-in-1 laptop that can be used as a tablet.",
+        "Specification": [
+            "Intel i5 processor",
+            "8GB RAM",
+            "512GB SSD",
+            "Touchscreen display"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "18",
+        "product_title": "Smartphone Mini",
+        "product_image": "https://example.com/images/smartphone_mini.jpg",
+        "category": "Phones",
+        "price": 399.99,
+        "description": "Compact smartphone with powerful features.",
+        "Specification": [
+            "5.4-inch display",
+            "64GB storage",
+            "Dual camera system",
+            "A15 Bionic chip"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "19",
+        "product_title": "Smart Watch Fitness Pro",
+        "product_image": "https://example.com/images/smart_watch_fitness.jpg",
+        "category": "Smart Watches",
+        "price": 199.99,
+        "description": "Fitness-focused smartwatch with heart rate monitoring.",
+        "Specification": [
+            "24/7 heart rate tracking",
+            "Sleep analysis",
+            "Water-resistant",
+            "Multiple sport modes"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "20",
+        "product_title": "MacBook Pro 13\"",
+        "product_image": "https://example.com/images/macbook_pro_13.jpg",
+        "category": "MacBook",
+        "price": 1299.99,
+        "description": "Portable MacBook Pro for productivity on the go.",
+        "Specification": [
+            "13-inch Retina display",
+            "8GB RAM",
+            "256GB SSD",
+            "Apple M1 chip"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "21",
+        "product_title": "USB-C Hub Adapter",
+        "product_image": "https://example.com/images/usb_c_hub.jpg",
+        "category": "Accessories",
+        "price": 29.99,
+        "description": "Multi-port USB-C hub for connectivity.",
+        "Specification": [
+            "HDMI output",
+            "3 USB 3.0 ports",
+            "SD card reader",
+            "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "22",
+        "product_title": "Laptop Backpack",
+        "product_image": "https://example.com/images/laptop_backpack.jpg",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "Stylish and durable backpack for laptops and accessories.",
+        "Specification": [
+            "Fits up to 15.6-inch laptops",
+            "Multiple compartments",
+            "Water-resistant material",
+            "Comfortable straps"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "23",
+        "product_title": "Wireless Bluetooth Speaker",
+        "product_image": "https://example.com/images/bluetooth_speaker.jpg",
+        "category": "Accessories",
+        "price": 69.99,
+        "description": "Portable speaker with rich sound and deep bass.",
+        "Specification": [
+            "Bluetooth 5.0",
+            "10 hours playtime",
+            "Water-resistant",
+            "Built-in microphone"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "24",
+        "product_title": "Gaming Laptop ABC",
+        "product_image": "https://i.ibb.co.com/wSsGTgz/l-4.jpg",
+        "category": "Laptops",
+        "price": 1499.99,
+        "description": "High-end gaming laptop with top-tier graphics.",
+        "Specification": [
+            "Intel i9 processor",
+            "32GB RAM",
+            "2TB SSD",
+            "NVIDIA RTX 3070"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "25",
+        "product_title": "Smartphone Foldable",
+        "product_image": "https://example.com/images/smartphone_foldable.jpg",
+        "category": "Phones",
+        "price": 1799.99,
+        "description": "Innovative foldable smartphone with dual screens.",
+        "Specification": [
+            "7.3-inch main display",
+            "256GB storage",
+            "Triple camera system",
+            "Snapdragon 888"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "26",
+        "product_title": "MacBook Air 16\"",
+        "product_image": "https://example.com/images/macbook_air_16.jpg",
+        "category": "MacBook",
+        "price": 1399.99,
+        "description": "Large-screen MacBook Air with excellent battery life.",
+        "Specification": [
+            "16-inch Retina display",
+            "16GB RAM",
+            "512GB SSD",
+            "M1 chip"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "27",
+        "product_title": "Smart Watch Series 7",
+        "product_image": "https://example.com/images/smart_watch_series7.jpg",
+        "category": "Smart Watches",
+        "price": 399.99,
+        "description": "The latest smartwatch with health and fitness features.",
+        "Specification": [
+            "Larger display",
+            "Blood oxygen monitoring",
+            "Fitness tracking",
+            "Water-resistant"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "28",
+        "product_title": "Laptop Cooling Pad",
+        "product_image": "https://example.com/images/laptop_cooling_pad.jpg",
+        "category": "Accessories",
+        "price": 29.99,
+        "description": "Cooling pad with adjustable fan speeds for laptops.",
+        "Specification": [
+            "Dual fans",
+            "Ergonomic design",
+            "USB powered",
+            "Lightweight"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "29",
+        "product_title": "Noise Cancelling Headphones",
+        "product_image": "https://example.com/images/noise_cancelling_headphones.jpg",
+        "category": "Accessories",
+        "price": 199.99,
+        "description": "Premium headphones with active noise cancellation.",
+        "Specification": [
+            "Up to 30 hours playtime",
+            "Comfortable ear cushions",
+            "Bluetooth and wired options",
+            "Built-in voice assistant"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "30",
+        "product_title": "Fitness Smart Watch",
+        "product_image": "https://example.com/images/fitness_smart_watch.jpg",
+        "category": "Smart Watches",
+        "price": 149.99,
+        "description": "Affordable smartwatch with fitness tracking capabilities.",
+        "Specification": [
+            "Heart rate monitor",
+            "Sleep tracking",
+            "Notifications",
+            "Water-resistant"
+        ],
+        "availability": true,
+        "rating": 4.5
+    }
+]

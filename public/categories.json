@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "category": "All Products",
+      "slug": "brewed-coffee"
+    },
+    {
+      "id": 2,
+      "category": "Phones",
+      "slug": "iced-coffee"
+    },
+    {
+      "id": 3,
+      "category": "Accessories",
+      "slug": "dessert-coffee"
+    },
+    {
+      "id": 4,
+      "category": "Smart Watches",
+      "slug": "dessert-coffee"
+    },
+    {
+      "id": 5,
+      "category": "MacBook",
+      "slug": "dessert-coffee"
+    },
+    {
+      "id": 6,
+      "category": "Laptops",
+      "slug": "dessert-coffee"
+    },
+    {
+      "id": 7,
+      "category": "Iphone",
+      "slug": "dessert-coffee"
+    }
+  ]
+  
