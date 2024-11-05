@@ -14,6 +14,7 @@ import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import AboutUs from './Components/AboutUs/AboutUs.jsx';
 import ProductsCard from './Components/ProductsCard.jsx';
 import DynamicCard from './Components/DynamicCard.jsx';
+import CardDetails from './Components/CardDetails.jsx';
 
 
 
@@ -52,6 +53,11 @@ const router = createBrowserRouter([
       {
         path: '/AboutUs',
         element:<AboutUs></AboutUs>
+      },
+      {
+        path: '/card/:id',
+        element:<CardDetails></CardDetails>,
+        loader: ()=> fetch('../allProducts.json'),
       }
     ]
   },
