@@ -6,7 +6,10 @@ import NavBer from "../NavBer/NavBer";
 const Root = () => {
     return (
         <div >
+            <div className="h-24">
             <NavBer></NavBer>
+
+            </div>
             <div className="">
             <Outlet></Outlet>
             </div>
