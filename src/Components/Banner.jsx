@@ -29,7 +29,7 @@ const Banner = () => {
     {/* Absolute banner */}
     <div className='absolute p-4 bg-white/30 mt-[650px] rounded-3xl border-2 border-white h-[350px]  w-[700px] border-2 border-red-600'>
         <div className='w-full h-full'> 
-        <img className=' rounded-3xl w-full h-full' src="/src/assets/banner.jpg" alt="" />
+        <img className=' rounded-3xl w-full h-full' src={'https://i.ibb.co.com/hLjZgPd/banner.jpg'} alt="" />
         </div>
       </div>
   </div>
