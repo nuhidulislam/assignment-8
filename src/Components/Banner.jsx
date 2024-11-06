@@ -23,7 +23,7 @@ const Banner = () => {
       <p className="py-6 px-28 text-white font-semibold text-xl">
       Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
       </p>
-      <button className="btn bg-white text-[#9538E2] font-semibold">Shop Now</button>
+      <button className="btn bg-white text-[#9538E2] font-semibold">Shop now</button>
 
     </div>
     {/* Absolute banner */}
