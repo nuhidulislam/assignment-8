@@ -1,5 +1,6 @@
 import { Outlet, useLoaderData } from "react-router-dom";
-// import Categories from "./categories";
+import Categories from "./Cata";
+
 
 
 
@@ -13,7 +14,7 @@ const DynamicCard = () => {
             </div>
             <div className=" w-full h-full p-10 flex">
                 <div className="w-[30%] h-full ">
-                    {/* <Categories></Categories> */}
+                    <Categories></Categories>
 
                 
                 </div>

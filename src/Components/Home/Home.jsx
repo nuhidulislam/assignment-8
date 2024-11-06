@@ -1,6 +1,7 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../Banner";
-import Categories from "../categories";
+import Categories from "../Cata";
+
 
 
 
