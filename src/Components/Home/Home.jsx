@@ -15,8 +15,8 @@ const Home = () => {
 
 
 
-            <div className="flex gap-5 border-2 border-black">
-                <div className="w-[30%] h-full border-2 border-red-600">
+            <div className="flex gap-5 ">
+                <div className="w-[30%] h-full ">
                 <Categories categories={categories}></Categories>
                 </div>
                 <div className="w-[70%] h-full mb-5"> 

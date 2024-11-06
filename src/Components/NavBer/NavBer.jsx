@@ -5,7 +5,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 const NavBer = () => {
     return (
-        <div className="navbar bg-white/30 z-50 fixed backdrop-blur-xl ">
+        <div className="navbar  z-50 ">
   <div className="navbar-start">
     {/* <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -51,8 +51,8 @@ const NavBer = () => {
     </ul>
   </div>
   <div className="navbar-end flex gap-4 mr-5 text-[20px]" >
-    <button><FaRegHeart></FaRegHeart></button>
-    <button><MdOutlineShoppingCart></MdOutlineShoppingCart></button>
+    <button className="p-2 rounded-full border-2 border-gray-200 bg-white"><FaRegHeart></FaRegHeart></button>
+    <button className="p-2 rounded-full border-2 border-gray-200 bg-white"><MdOutlineShoppingCart></MdOutlineShoppingCart></button>
   </div>
 </div>
     );

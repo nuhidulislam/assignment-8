@@ -5,6 +5,18 @@ const Banner = () => {
         <div>
             {/* relative banner */}
             <div className="hero bg-[#9538E2] pt-6 pb-[150px] rounded-2xl mb-[300px] relative">
+
+                {/* nav section start style */}
+                <div className='absolute w-full h-[150px] bg-[#9538E2] -top-[150px] -z-10'>
+
+                </div>
+
+
+
+                {/* nav section end style */}
+
+
+
   <div className="hero-content text-center">
     <div className="px-20">
       <h1 className="text-5xl font-bold text-white">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
