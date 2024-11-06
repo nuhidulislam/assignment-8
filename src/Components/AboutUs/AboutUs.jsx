@@ -1,9 +1,15 @@
 import { useEffect, useState } from "react";
 import { getAllCard } from "../../utility";
-import Card from "../Card";
+
+import DeleteCard from "../DeleteCard";
+import { useLoaderData } from "react-router-dom";
+
 
 
 const AboutUs = () => {
+    const products= useLoaderData()
+    
+  
     const [productType, setProductType]=useState([])
     useEffect(()=>{
         const cards=getAllCard()
@@ -11,10 +17,10 @@ const AboutUs = () => {
     },[])
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1  gap-4">
             {
                 productType.map(singleProduct=>(
-                    <Card singleProduct={singleProduct} key={singleProduct.product_id}></Card>
+                    <DeleteCard singleProduct={singleProduct} key={singleProduct.product_id}></DeleteCard>
                 ))
             }
             

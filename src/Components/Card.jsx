@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 
 const Card = ({singleProduct}) => {
+    
 
     
     const {product_id, product_title, product_image, price} = singleProduct
     return (
-        <div className="p-3 rounded-2xl bg-gray-200">
+       <div className=" p-5">
+         <div className="p-3 rounded-2xl bg-gray-200">
             <div>
                 <img className=" rounded-2xl h-[200px] w-full " src={product_image} alt="" />
             </div>
@@ -16,6 +18,9 @@ const Card = ({singleProduct}) => {
             <Link to={`/card/${product_id}`}  className="py-2 px-5 rounded-3xl border-2 border-green-700 text-[16px] font-semibold">  View Details</Link>
             </div>
         </div>
+
+       
+       </div>
     );
 };
 

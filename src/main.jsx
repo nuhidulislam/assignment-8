@@ -52,7 +52,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/AboutUs',
-        element:<AboutUs></AboutUs>
+        element:<AboutUs></AboutUs>,
+        loader: ()=> fetch('../allProducts.json'),
       },
       {
         path: '/card/:id',
