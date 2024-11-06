@@ -45,9 +45,9 @@ const NavBer = () => {
       <NavLink to='/statistics' className={({ isActive }) => `text-[18px] ${isActive?'text-yellow-500 text-[22px] text-bold':'hover:text-warning'}`
         }>Statistics</NavLink>
       <NavLink to='/Dashboard' className={({ isActive }) => `text-[18px] ${isActive?'text-yellow-500 text-[22px] text-bold':'hover:text-warning'}`
-        }>Dashboard</NavLink>
+        }>View All</NavLink>
         <NavLink to='/AboutUs' className={({ isActive }) => `text-[18px] ${isActive?'text-yellow-500 text-[22px] text-bold':'hover:text-warning'}`
-        }>About Us</NavLink>
+        }>Dashboard</NavLink>
     </ul>
   </div>
   <div className="navbar-end flex gap-4 mr-5 text-[20px]" >

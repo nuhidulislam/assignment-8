@@ -37,6 +37,7 @@
 
 
 // getAllCard ফাংশন: localStorage থেকে ডাটা নিয়ে আসে
+import toast from "react-hot-toast";
 const getAllCard = () => {
     const storedCards = localStorage.getItem('card');
     return storedCards ? JSON.parse(storedCards) : []; // যদি ডাটা না থাকে, তাহলে খালি অ্যারে রিটার্ন করবে
@@ -48,7 +49,7 @@ const addCard = (product) => {
 
     const isExist = cards.find(item=>item.product_id==product.product_id)
     if(isExist){
-        return alert('alreay exist')
+        return toast.error('This product is already exist in your card!');
     }
 
     // যদি cards অ্যারে না হলে, তাহলে খালি অ্যারে সেট করা
@@ -58,6 +59,7 @@ const addCard = (product) => {
 
     cards.push(product); // নতুন প্রোডাক্ট এড করা
     localStorage.setItem('card', JSON.stringify(cards)); // আপডেটেড অ্যারেটি localStorage-এ সেভ করা
+    toast.success('Successfully added!');
 }
 
 export {addCard, getAllCard}
