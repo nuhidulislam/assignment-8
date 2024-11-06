@@ -62,4 +62,16 @@ const addCard = (product) => {
     toast.success('Successfully added!');
 }
 
-export {addCard, getAllCard}
+
+
+// remove product from localStorage
+const removeProduct=product_id=>{
+    let cards = getAllCard();
+    const remaing= cards.filter(product=>product.product_id !=product_id)
+    localStorage.setItem('card', JSON.stringify(remaing)); 
+    toast.success('Successfully deleted!');
+
+
+}
+
+export {addCard, getAllCard,removeProduct}

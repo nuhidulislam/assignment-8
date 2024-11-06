@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllCard } from "../../utility";
+import { getAllCard, removeProduct } from "../../utility";
 
 import DeleteCard from "../DeleteCard";
 import { useLoaderData } from "react-router-dom";
@@ -15,12 +15,19 @@ const AboutUs = () => {
         const cards=getAllCard()
         setProductType(cards)
     },[])
+
+    const handleRemove=product_id=>{
+        removeProduct(product_id)
+
+        const cards=getAllCard()
+        setProductType(cards)
+    }
     return (
         <div>
             <div className="grid grid-cols-1  gap-4">
             {
                 productType.map(singleProduct=>(
-                    <DeleteCard singleProduct={singleProduct} key={singleProduct.product_id}></DeleteCard>
+                    <DeleteCard handleRemove={handleRemove} singleProduct={singleProduct} key={singleProduct.product_id}></DeleteCard>
                 ))
             }
             

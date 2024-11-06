@@ -1,13 +1,13 @@
 import { useLoaderData, useLocation } from "react-router-dom";
 import { MdOutlineCancel } from "react-icons/md";
 
-const DeleteCard = ({singleProduct}) => {
+const DeleteCard = ({singleProduct,handleRemove}) => {
    
 
    
    
     const {pathname}= useLocation()
-    const {product_image, description, price, product_title}= singleProduct
+    const {product_id,product_image, description, price, product_title}= singleProduct
     return (
        <div className="my-1 relative">
          <div className="h-[200px] w-[800px] border-2 border-red-700  mx-auto flex rounded-3xl p-4">
@@ -25,7 +25,7 @@ const DeleteCard = ({singleProduct}) => {
 
 
         {pathname=='/AboutUs' &&(
-            <p className="absolute top-[35px] text-red text-3xl right-[270px]"><MdOutlineCancel /></p>
+            <button onClick={()=>handleRemove(product_id)} className="absolute top-[35px] text-red-600 text-3xl right-[270px]"><MdOutlineCancel /></button>
         )}
 
        </div>
