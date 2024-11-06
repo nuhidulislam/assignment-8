@@ -3,10 +3,10 @@ import React from 'react';
 const Banner = () => {
     return (
         <div>
-            {/* relative banner */}
+            {/* relative bann */}
             <div className="hero bg-[#9538E2] pt-6 pb-[150px] rounded-2xl mb-[300px] relative">
 
-                {/* nav section start style */}
+                {/* nav section s style */}
                 <div className='absolute w-full h-[150px] bg-[#9538E2] -top-[150px] -z-10'>
 
                 </div>
