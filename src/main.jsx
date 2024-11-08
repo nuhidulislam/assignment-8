@@ -15,6 +15,7 @@ import AboutUs from './Components/AboutUs/AboutUs.jsx';
 import ProductsCard from './Components/ProductsCard.jsx';
 import DynamicCard from './Components/DynamicCard.jsx';
 import CardDetails from './Components/CardDetails.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 
@@ -66,6 +67,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <HelmetProvider>
     <RouterProvider router={router} />
+    </HelmetProvider>
   </StrictMode>,
 )

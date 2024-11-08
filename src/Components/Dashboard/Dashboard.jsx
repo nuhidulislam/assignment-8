@@ -2,9 +2,11 @@ import { useLoaderData } from "react-router-dom";
 import Card from "../Card";
 import { AiFillSliders } from "react-icons/ai";
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 
 const Dashboard = () => {
+    
     const product=useLoaderData()
    
    
@@ -22,6 +24,9 @@ const Dashboard = () => {
     }
     return (
        <div className="max-w-6xl mx-auto">
+        <Helmet>
+                <title>Gadget/Product-card</title>
+            </Helmet>
         <div className=" w-full h-[300px] bg-[#9538E2] text-center pt-8 mb-5">
                     <h1 className="text-5xl text-white font-bold">Our All Products</h1>
                     <p className=" pt-3 text-[18px]  text-white"> Welcome to your shop. <br />Here you can see all our product. If you want you can sort by price . <br /> We can ensure our all prduct is good enough. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit corrupti perspiciatis quibusdam dolore dicta. Quibusdam est ipsam qui at veritatis. </p>

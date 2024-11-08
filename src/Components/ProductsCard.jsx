@@ -3,6 +3,7 @@ import Card from "./Card";
 import { useEffect, useState } from "react";
 
 const ProductsCard = () => {
+
     const navigate= useNavigate()
     const product = useLoaderData()
 

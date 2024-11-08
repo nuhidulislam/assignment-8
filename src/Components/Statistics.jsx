@@ -1,8 +1,12 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const Statistics = () => {
     return (
         <div>
+            <Helmet>
+                <title>Gadget/Statistics</title>
+            </Helmet>
 
 <div className=" w-full h-[300px] bg-[#9538E2] text-center pt-8 mb-5">
                     <h1 className="text-5xl text-white font-bold">Statistics</h1>

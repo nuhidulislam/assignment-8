@@ -1,6 +1,7 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../Banner";
 import Categories from "../Cata";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -10,6 +11,9 @@ const Home = () => {
    
     return (
         <div>
+            <Helmet>
+                <title>Gadget/Home</title>
+            </Helmet>
             {/* Banner Start */}
             <Banner></Banner>
             {/* Banner End */}
