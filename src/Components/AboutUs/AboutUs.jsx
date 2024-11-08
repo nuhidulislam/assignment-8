@@ -28,9 +28,33 @@ const AboutUs = () => {
  const productts= getAllCard()
  let totalPrice = productts.reduce((sum, product) => {
     return sum + product.price;
-  }, 0); // শুরুতে sum ০ হবে
+  }, 0);
   
   console.log("Total Cost " + totalPrice);
+
+
+
+// const handlePrice={
+//     const productss= getAllCard(),
+//   const sortedProducts = productss.sort((a, b) => {
+//     return b.price - a.price; // দাম বেশি থেকে কম সজ্জিত করার জন্য
+//   })
+// }
+  
+//   console.log(sortedProducts);
+
+const productt= getAllCard()
+const [item, setItem]=useState(productt)
+    const handleByPrice= byPrice =>{
+        if(byPrice == 'pricee'){
+            const sorted= [...productt].sort((a,b)=> a.price - b.price)
+            console.log(sorted)
+            setItem(sorted)
+            
+
+        }
+    }
+    console.log(item)
     
   
     return (
@@ -50,14 +74,14 @@ const AboutUs = () => {
             <div > <h1 className="text-2xl font-semibold">Cart</h1></div>
             <div className="flex gap-5 items-center">
                 <h1 className="text-2xl font-bold">Total cost: {totalPrice}</h1>
-                <button  className="btn border-2 bg-transparent text-[#9538E2] border-[#9538E2] rounded-3xl px-5">Sort By Price  <AiFillSliders /></button>
+                <button onClick={()=>handleByPrice('pricee')} className="btn border-2 bg-transparent text-[#9538E2] border-[#9538E2] rounded-3xl px-5">Sort By Price  <AiFillSliders /></button>
                 <button className="btn bg-[#9538E2] text-white rounded-3xl px-5">Purchase </button>
             </div>
         </div>
 
             <div className="grid grid-cols-1  gap-4">
             {
-                productType.map(singleProduct=>(
+                item.map(singleProduct=>(
                     <DeleteCard handleRemove={handleRemove} singleProduct={singleProduct} key={singleProduct.product_id}></DeleteCard>
                 ))
             }
