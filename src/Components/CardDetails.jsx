@@ -34,6 +34,7 @@ const CardDetails = () => {
     // const {product_title}=id
     return (
         <div>
+            
             <div className=" relative w-full h-[300px] bg-[#9538E2]">
                 <div className=" w-full h-[300px] bg-[#9538E2] text-center pt-8">
                     <h1 className="text-5xl text-white font-bold">Product Details</h1>
